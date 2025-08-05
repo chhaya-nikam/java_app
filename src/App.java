@@ -6,4 +6,11 @@ public class App {
     public void greet() {
         System.out.println("Greetings from the App class!");
     }
+
+    public int add(int a, int b) {
+        return a + b;
+    }
+    public int multiply(int a, int b) {
+        return a * b;
+    }
 }
